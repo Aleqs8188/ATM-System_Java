@@ -1,0 +1,89 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "John",
+      "surname": "Smith",
+      "numberCard": 12345678,
+      "pinCode": 9999,
+      "money": 155819.0,
+      "transactions": [
+        "PLN 200.0 has been withdrawn from your balance",
+        "PLN 123.0 has been add on your balance",
+        "PLN 100.0 has been withdrawn from your balance",
+        "PLN 54363.0 has been add on your balance",
+        "PLN 9999.0 has been add on your balance",
+        "PLN 400.0 has been withdrawn from your balance",
+        "PLN 12.0 has been add on your balance",
+        "PLN 400.0 has been withdrawn from your balance",
+        "PLN 84234.0 has been add on your balance"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Alex",
+      "surname": "Bulhak",
+      "numberCard": 654321,
+      "pinCode": 6666,
+      "money": 798985.0,
+      "transactions": [
+        "PLN 50.0 has been withdrawn from your balance",
+        "PLN 123.0 has been add on your balance"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Vlad",
+      "surname": "Paun",
+      "numberCard": 112233,
+      "pinCode": 3322,
+      "money": 430000.0,
+      "transactions": []
+    },
+    {
+      "id": 4,
+      "name": "Yurii",
+      "surname": "Chalow",
+      "numberCard": 343434,
+      "pinCode": 5555,
+      "money": 150000.0,
+      "transactions": []
+    },
+    {
+      "id": 5,
+      "name": "Jewchen",
+      "surname": "Todorika",
+      "numberCard": 777777,
+      "pinCode": 5454,
+      "money": 49962.0,
+      "transactions": [
+        "PLN 12.0 has been add on your balance",
+        "PLN 50.0 has been withdrawn from your balance"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Alexandr",
+      "surname": "Makarenko",
+      "numberCard": 312123,
+      "pinCode": 8765,
+      "money": 30666.0,
+      "transactions": [
+        "PLN 666.0 has been add on your balance"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Jedrzej",
+      "surname": "Ulasiewicz",
+      "numberCard": 69696969,
+      "pinCode": 7777,
+      "money": 31862.0,
+      "transactions": [
+        "PLN 123.0 has been add on your balance",
+        "PLN 1123.0 has been add on your balance",
+        "PLN 50.0 has been withdrawn from your balance"
+      ]
+    }
+  ]
+}
