@@ -1,10 +1,7 @@
 package pl.oleksii;
 
+import pl.oleksii.ATMFunctions.FunctionClassesOfATM.*;
 import pl.oleksii.ClientSettings.Client;
-import pl.oleksii.ATMFunctions.FunctionClassesOfATM.CheckerOwner;
-import pl.oleksii.ATMFunctions.FunctionClassesOfATM.GetterMoney;
-import pl.oleksii.ATMFunctions.FunctionClassesOfATM.PrintAllTransactions;
-import pl.oleksii.ATMFunctions.FunctionClassesOfATM.PutterMoney;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -78,6 +75,10 @@ public class Main {
                     }
                     case 3 -> functionalityList.get(3).init(client);
                     case 4 -> {
+                        Thread threadToPrintTableWithRates = new Thread(new PrinterMoneyValue());
+                        threadToPrintTableWithRates.start();
+                        Thread.sleep(3000);
+                        threadToPrintTableWithRates.interrupt();
                     }
                     case 5 -> {
                         System.out.println("        ************* Exit Success **************");
@@ -89,7 +90,7 @@ public class Main {
     }
 
     public static void printSymbols() {
-        System.out.println("***********************************************************");
+        System.out.println("*******************************************************************************");
     }
 
     public static void printBalanceOfMoney(Client client, String str) {
